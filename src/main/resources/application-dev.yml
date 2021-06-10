@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    url: jdbc:mysql://lzo-test-mysql.mysql.database.azure.com:3306/test_db
+    username: lzo@lzo-test-mysql
+    password: 1niTi@l1niTi@l
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+server:
+  servlet:
+    session:
+      timeout: 10
+  tomcat:
+    uri-encoding: UTF-8
+
+mybatis:
+  config-location: classpath:mybatis-config.xml
+  mapper-locations: classpath*:com.example.backend.dao/**/*.xml
+logging:
+  level:
+    com:
+      example:
+        backend:
+          dao: debug
