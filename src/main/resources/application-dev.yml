@@ -10,9 +10,9 @@ server:
   servlet:
     session:
       timeout: 10
+    context-path: /back-end
   tomcat:
     uri-encoding: UTF-8
-
 mybatis:
   config-location: classpath:mybatis-config.xml
   mapper-locations: classpath*:com.example.backend.dao/**/*.xml
