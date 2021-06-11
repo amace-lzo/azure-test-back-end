@@ -7,7 +7,7 @@
 1. 准备微软Azure账号
 2. 准备后端代码，并上传到github上的新建仓库
 
-### 部署过程
+### 部署流程
 
 1. 进入[Azure门户网站][2]
 2. 点击创建资源![image]( https://github.com/ineedahouse/markdownPhoto/blob/main/azure-deployment/back-end/1.png)
