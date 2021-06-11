@@ -16,7 +16,7 @@ public class CorsConfiguration {
                 registry.addMapping("/**")
                         .allowCredentials(false)
                         .allowedMethods("POST", "GET", "PUT", "OPTIONS", "DELETE")
-                        .allowedOrigins("*");
+                        .allowedOrigins("*.azurestaticapps.net");
             }
         };
     }
