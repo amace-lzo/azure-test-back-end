@@ -49,9 +49,4 @@ public class UserController {
             return null;
         }
     }
-
-    @GetMapping("/hello")
-    public String helloTest() {
-        return "helloWorld!";
-    }
 }
