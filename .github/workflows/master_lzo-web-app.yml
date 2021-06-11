@@ -31,6 +31,6 @@ jobs:
       with:
         app-name: lzo-web-app
         slot-name: Production
-        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_EB8B720B696E400BB8923665BCF973C1 }}
+        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_54960C875ABC483A97123AA1D49EF5D3 }}
         package: ${{ github.workspace }}/target/*.war
 
