@@ -7,8 +7,6 @@ on:
   push:
     branches:
       - master
-    paths:
-      - '!**.md'
 
 jobs:
   build-and-deploy:
